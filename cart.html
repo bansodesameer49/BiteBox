@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Bitebox cart</title>
+
+    <style>
+        li {
+            list-style-type: none;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/11becde370.js" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+</head>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <!--Logo-->
+            <img src="images/logo.png" class="logo">
+            <h2><span style="color: red;"></span></h2>
+            <!--menu Section-->
+            <ul>
+                <li>
+                    <a href="index.html" class="active">home</a>
+                </li>
+                <li>
+                    <a href="menu.html">menu</a>
+                </li>
+                <li>
+                    <a href="bitedeals.html">Bite deals</a>
+                </li>
+                <li>
+                    <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+                <li>
+                    <a href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section class="cart">
+
+        <table>
+            <thead>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quality</th>
+                <th>Total</th>
+                <th>Remove</th>
+
+
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td class="item">
+                        <img src="Images/cheesy burger image.jpg">
+                        <div>
+                            <h4>Cheese burger</h4>
+                            <P>Juicy Grilled Burger</P>
+
+                        </div>
+                    </td>
+                    <td>RS199</td>
+                    <td>
+                        <div class="qty-box">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </td>
+                    <td>RS199</td>
+                    <td><button class="remove">x</button></td>
+                </tr>
+
+                <tr>
+                    <td class="item">
+                        <img src="Images/paneer pizza.png">
+                        <div>
+                            <h4>Paneer Pizza</h4>
+                            <P>Loaded With Spicy Paneer Chunks</P>
+
+                        </div>
+                    </td>
+                    <td>RS299</td>
+                    <td>
+                        <div class="qty-box">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </td>
+                    <td>RS299</td>
+                    <td><button class="remove">x</button></td>
+                </tr>
+
+                <tr>
+                    <td class="item">
+                        <img src="Images/white sauce pasta.jpg">
+                        <div>
+                            <h4>Alfredo Pizza</h4>
+                            <P>Creamy White Sauce Pasta</P>
+
+                        </div>
+                    </td>
+                    <td>RS229</td>
+                    <td>
+                        <div class="qty-box">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </td>
+                    <td>RS229</td>
+                    <td><button class="remove">x</button></td>
+                </tr>
+
+                <tr>
+                    <td class="item">
+                        <img src="Images/paneer pizza.png">
+                        <div>
+                            <h4>French Fries</h4>
+                            <P>Salty Crispy Fries</P>
+
+                        </div>
+                    </td>
+                    <td>RS129</td>
+                    <td>
+                        <div class="qty-box">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </td>
+                    <td>RS129</td>
+                    <td><button class="remove">x</button></td>
+                </tr>
+
+
+
+
+
+                <tr class="grand-total">
+                    <td colspan="3">grand total</td>
+                    <td>Rs856</td>
+                    <td><button>Processed</button></td>
+
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+</body>
+
+</html>
